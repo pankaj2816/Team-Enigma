@@ -80,12 +80,12 @@ f=gz;
    if(a>2500 || a<-2500 || b>2500 || b<-2500)     //landslide
     {
       digitalWrite(13, 1);
-      delay(10);
+      delay(1000);
     }
     if(d>400 || d<-400 || e>150 || e<-150 ||f>150||f<-150) //Earthquake
     {
        digitalWrite(12, 1);
-       delay(10);
+       delay(1000);
     }
      digitalWrite(12, 0);
     digitalWrite(13, 0);
